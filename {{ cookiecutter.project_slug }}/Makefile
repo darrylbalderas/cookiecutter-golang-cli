@@ -1,6 +1,4 @@
-VERSION := 0.0.1
-APP_NAME := cli
-IMAGE_NAME := ${APP_NAME}:${VERSION}
+IMAGE_NAME := {{ cookiecutter.project_slug }}:{{ cookiecutter.version }}
 
 test:
 	go test -v ./...

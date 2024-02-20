@@ -1,8 +1,6 @@
-// module github.com/darrylbalderas/{{cookiecutter.project_slug}}
-module github.com/darrylbalderas/cli
+module github.com/darrylbalderas/{{ cookiecutter.project_slug }}
 
-// go {{cookiecutter.golang_version}}
-go 1.21.1
+go {{ cookiecutter.golang_version }}
 
 require github.com/spf13/cobra v1.8.0
 
