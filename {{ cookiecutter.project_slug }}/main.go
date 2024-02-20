@@ -4,7 +4,7 @@ Copyright © 2024 NAME HERE <EMAIL ADDRESS>
 */
 package main
 
-import "github.com/darrylbalderas/cli/cmd"
+import "{{ cookiecutter.golang_module }}/cmd"
 
 func main() {
 	cmd.Execute()

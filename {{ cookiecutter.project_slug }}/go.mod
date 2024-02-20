@@ -1,4 +1,4 @@
-module github.com/darrylbalderas/{{ cookiecutter.project_slug }}
+module {{ cookiecutter.golang_module }}
 
 go {{ cookiecutter.golang_version }}
 
