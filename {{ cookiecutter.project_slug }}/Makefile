@@ -10,7 +10,6 @@ lint:
 
 init:
 	cobra-cli init
-
 build:
 	@docker build -t ${IMAGE_NAME} .
 run:
